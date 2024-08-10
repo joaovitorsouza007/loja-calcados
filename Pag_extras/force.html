@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JV</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/pagesExtra.css">
+    <script src="/JS/script.js"></script>
+</head>
+<body>
+    
+    <div id="header"> <!-- Topo do site -->
+
+        <div id="logotipo">
+
+            <img id="logo" src="/Images/logo.png" alt="">
+
+        </div>
+
+        <ul>
+            <a href="/index.html"><li>Início</li></a>
+            <a href="#cards1"><li>Calçados</li></a>
+        </ul>
+
+        <div id="header_button">
+
+            <a href="https://wa.me/5511939098656"><button id="btn_contato">Contato</button></a>
+        </div>
+
+    </div> <!-- Fim do Topo do site -->
+
+    <div id="principal_card">
+
+        <div id="principalImage">
+            <img src="/Images/force.jpg" alt="">
+        </div>
+
+        <div id="infoTenis">
+            <h1>Air force 1</h1>
+            <p id="preco">R$ 800,00</p>
+            <p>Em até 10 vezes de R$ 80,00</p>
+            <form id="cor">
+                <select required="required" id="select">
+                    <option value="1">Selecione a cor</option>
+                    <option >Vermelho</option>
+                    <option >Branco</option>
+                    <option >Azul</option>
+                    <option >Preto</option>
+                </select>
+            </form>
+
+            <form id="tamanho">
+                <input type="radio" name="tamanho">
+                <label >35</label>
+                <input type="radio" name="tamanho">
+                <label >36</label>
+                <input type="radio" name="tamanho">
+                <label >37</label>
+                <input type="radio" name="tamanho">
+                <label >38</label>
+                <input type="radio" name="tamanho">
+                <label >39</label>
+                <input type="radio" name="tamanho">
+                <label >40</label>
+                <input type="radio" name="tamanho">
+                <label >41</label>
+                <input type="radio" name="tamanho">
+                <label >42</label>
+                <input type="radio" name="tamanho">
+                <label >43</label>
+                <input type="radio" name="tamanho">
+                <label >44 </label>
+              </form>
+
+            <a href="formCompra.html"><button id="comp">Comprar</button></a>
+            
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div>
+
+            <h1>Navegação</h1>
+
+            <a href="/index.html">Início</a>
+            <a href="#cards1">Calçados</a>
+
+        </div>
+
+        <div>
+
+            <h1>Informações</h1>
+
+            <a href="https://www.nike.com.br/?utm_source=google&utm_medium=cpc&gad_source=1&gclid=EAIaIQobChMI2p7PyebohgMVNQetBh2SagpwEAAYASAAEgJt8PD_BwE&utm_referrer=https://www.google.com/">Fornecedores</a>
+            <a href="https://www.instagram.com/neymarjr/">Patrocinadores</a>
+            
+        </div>
+
+        <div>
+
+            <h1>Suporte</h1>
+
+            <p>Telefone: 11 25520921</p>
+            <a href="mailto:contato.ssilvajoao13@gmail.com" target="_blank">E-mail</a>
+            <a href="https://wa.me/5511939098656" target="_blank">Whatsapp</a>
+
+        </div>
+
+        <div>
+
+            <h1>Sobre Nós</h1>
+
+            <p>Bem-vindo à Sneaker Shop, o seu destino premium para calçados online. Fundada com a paixão por moda e conforto, nossa missão é proporcionar uma experiência de compra excepcional, oferecendo uma seleção cuidadosamente curada dos melhores calçados do mercado.</p>
+
+        </div>
+        
+    </footer>
+
+</body>
+</html>
+
+<!-- <form class="formulario" method="post">  
+    <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+    
+    <div class="field">
+        <label for="nome">Seu Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+    </div>
+    
+    <div class="field">
+        <label for="telefone">Seu Telefone:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+    </div>
+
+    <div class="field">
+        <label for="email">Seu E-Mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+    </div>        
+    <div class="field radiobox">
+        <span>Deseja receber nossas novidades?</span>
+        <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+        <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+    </div>
+    <div class="field">
+        <label for="mensagem">Sua mensagem:</label>
+        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+    </div>
+
+    <input type="submit" name="acao" value="Enviar">
+</form>-->
+
+<!-- .formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+} -->
